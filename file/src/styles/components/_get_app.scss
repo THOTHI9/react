@@ -1,0 +1,93 @@
+.get-app-link-form {
+  margin-bottom: 9%;
+}
+
+.app-link-section__title {
+  color: #ff8412;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.app-link-section {
+  img {
+    width: 150px;
+  }
+
+  .get-app-button {
+    margin-bottom: 0;
+    background: linear-gradient(113.96deg, #332c6c 0%, #131040 100%);
+    box-shadow: -10px -10px 20px rgba(28, 27, 60, 0.25),
+      10px 10px 20px rgba(20, 19, 47, 0.25);
+    border-radius: 40px;
+    width: 84%;
+    height: 67px;
+    margin-top: 10px;
+    font-size: 25px;
+    position: relative;
+    left: 8%;
+  }
+}
+
+.get-app-link-form__input {
+  display: flex;
+  flex-direction: column;
+  width: 83%;
+  margin: 0 auto;
+  position: relative;
+
+  svg {
+    color: black;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+  }
+
+  input {
+    height: 53px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding-left: 23%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #211f2b;
+    outline: none;
+    border: 0;
+
+    &.text-input-email {
+      padding-left: 43px;
+    }
+
+    &::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #211f2b;
+      opacity: 1; /* Firefox */
+    }
+  }
+}
+
+.get-app-link-form__error {
+  margin: 0;
+  color: #ff6666;
+  position: relative;
+  top: -9px;
+}
+
+.get-app-link-form__input-phone--extension {
+  color: black;
+  position: absolute;
+  top: 16px;
+  left: 42px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.get-app-link-form__advisory {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 15px;
+  line-height: 1.5;
+  color: #e6e6e6;
+  font-size: 14px;
+}

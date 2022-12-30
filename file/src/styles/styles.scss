@@ -1,0 +1,24 @@
+@import "./base/base";
+@import "./components/logo";
+@import "./components/header";
+@import "./components/button";
+@import "./components/social_media";
+@import "./components/app_overview";
+@import "./components/footer";
+@import "./components/get_app";
+@import "./components/toggle_switch";
+@import "./components/toggle_switch_button";
+
+@media only screen and (max-width: 350px) {
+  .app-preview-container img {
+    width: 94px;
+  }
+
+  .footer img {
+    width: 250px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}

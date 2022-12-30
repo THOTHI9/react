@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dfc48267.css",
+    "main.js": "/static/js/main.895777e6.js",
+    "static/js/787.19510e15.chunk.js": "/static/js/787.19510e15.chunk.js",
+    "static/media/desktop_image.jpg": "/static/media/desktop_image.c708be9f88cbdeeccf67.jpg",
+    "static/media/person_icon.svg": "/static/media/person_icon.6160ad002e78379d5a9f533d3b49f1f5.svg",
+    "static/media/MockUp12.png": "/static/media/MockUp12.cf9cb1ff2d2287b225d7.png",
+    "static/media/doctors.png": "/static/media/doctors.cabcf7f9d675e05b2cb8.png",
+    "static/media/MockUp11.png": "/static/media/MockUp11.ca06ef8a992c4324cf79.png",
+    "static/media/MockUp1.png": "/static/media/MockUp1.de25d1b10e7263f9878d.png",
+    "static/media/PlayStore.png": "/static/media/PlayStore.3bb3a1d9a67480f5afeb.png",
+    "static/media/AppStore.png": "/static/media/AppStore.9fc1ed03e46cc5ba2198.png",
+    "static/media/clinic_dark.png": "/static/media/clinic_dark.887758ac4ae6618d9f9b.png",
+    "static/media/Logo.png": "/static/media/Logo.7e54bd2ae5d9cdbc9fa6.png",
+    "index.html": "/index.html",
+    "main.dfc48267.css.map": "/static/css/main.dfc48267.css.map",
+    "main.895777e6.js.map": "/static/js/main.895777e6.js.map",
+    "787.19510e15.chunk.js.map": "/static/js/787.19510e15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfc48267.css",
+    "static/js/main.895777e6.js"
+  ]
+}

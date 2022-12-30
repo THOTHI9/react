@@ -1,0 +1,24 @@
+.google-play-button,
+.iOS-button {
+  margin-bottom: 10%;
+  img {
+    width: 146px;
+  }
+}
+
+.get-app-button {
+  width: 140px;
+  height: 45px;
+  margin-top: 5px;
+  margin-bottom: 28%;
+
+  background: linear-gradient(
+    130.06deg,
+    #aca4fe 0%,
+    #5c55ab 35.33%,
+    #2b275a 75.68%
+  );
+  box-shadow: -10px -10px 20px #fbf5ff, 10px 10px 20px 4px #ddcfe5;
+  border-radius: 30px;
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -6%;
+}
+
+.logo__image img {
+  height: 51px;
+  width: 51px;
+}
+
+.logo__title {
+  margin-left: 15px;
+}
+
+.logo-separator {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15%;
+}
+
+.logo-separator__line {
+  height: 4px;
+  width: 94px;
+  background: #ff8412;
+  transform: rotate(-7deg);
+}
+
+.logo-separator__circle {
+  height: 6px;
+  width: 6px;
+  background: #ff8412;
+  border-radius: 50%;
+  position: relative;
+  top: -8px;
+  left: 4px;
+}

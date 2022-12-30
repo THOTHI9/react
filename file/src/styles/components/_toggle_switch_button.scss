@@ -1,0 +1,37 @@
+.toggle-switch-container__text {
+  font-size: 12px;
+  color: rgba(33, 31, 43, 0.5);
+  font-weight: 700;
+  text-align: center;
+
+  &--dark {
+    position: relative;
+    top: 13px;
+  }
+
+  &--dark.selected {
+    position: relative;
+    top: 13px;
+    color: #ffffff;
+  }
+
+  &--light.selected {
+    color: #211f2b;
+  }
+}
+
+.toggle-switch-container.dark {
+  background: #171630;
+}
+
+.toggle-switch-container {
+  padding: 5% 0;
+  padding-bottom: 0;
+  padding-left: 70%;
+
+  &.dark {
+    .toggle-switch-container__text--light {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

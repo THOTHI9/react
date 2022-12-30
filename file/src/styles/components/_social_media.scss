@@ -1,0 +1,36 @@
+.social-media-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-preview-container {
+  img {
+    position: relative;
+    top: 4px;
+    width: 150px;
+    left: 21%;
+  }
+}
+
+.app-link-section {
+  .social-media-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.social-media-buttons {
+  img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+}
+
+.social-media-section.dark {
+  .get-app-button {
+    background: linear-gradient(113.96deg, #332c6c 0%, #131040 100%);
+    box-shadow: -10px -10px 20px rgba(28, 27, 60, 0.25),
+      10px 10px 20px rgba(20, 19, 47, 0.25);
+  }
+}
